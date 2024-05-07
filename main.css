@@ -1,0 +1,106 @@
+.header{
+    background-color: #24436F;
+    width: 1440px;
+    height: 75px;
+    padding: 10px;
+
+    .header-container{
+        width: 1126px;
+        height: 75px;
+        left: 175px;
+        position: relative;
+    
+        .header-small-container{
+            width: 1126px;
+            height: 30px;
+            top: 13px;
+            display: flex;
+        
+            .logo{
+                img.prtimes-logo{
+                    width: 122px;
+                    height: 22px;
+                    top: 4px;
+                }
+                a.prtimes{
+                    color: #BFC9D7;
+                    width: 335px;
+                    height: 30px;
+                    left: 140px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+    
+            .release{
+                left: 511px;
+                .background{
+                    background-color: #345584;
+                    text-align: center;
+                    width: 316px;
+                    height: 30px;
+        
+                    a{
+                        color: #FFFFFF;
+                        width: 128px;
+                        height: 13px;
+                        top: 9px;
+                        left: 15px;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 18px;
+                    }
+                    a.link:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+    
+            form.keyword{
+                width: 288px;
+                height: 30px;
+                left: 838px;
+                
+                input.box{
+                    width: 258px;
+                    height: 30px;
+                    border-radius: 4px 0px 0px 4px;
+                    border: #BBBBBB;
+                }
+                button.search{
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 258px;
+                    margin-top: -30px;
+                    border-radius: 0px 4px 4px 0px;
+                    background-color: #3081C9;
+                    border: none;
+                    text-align: center;
+                }
+            }
+        }
+    
+        .main-header{        
+            width: 1125px;
+            height: 13px;
+            top: 52px;
+            text-align: left;
+    
+            a{
+                color: #FFFFFF;
+                width: 128px;
+                height: 13px;
+                top: 9px;
+                left: 10px;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 19.5px;
+            }
+            a.link:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
