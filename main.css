@@ -1,8 +1,8 @@
 .header{
     background-color: #24436F;
-    width: 1440px;
+    width: 100%;
     min-width: 1125px;
-    max-height: 75px;
+    height: 75px;
     padding: 10px;
     gap: 10px;
     margin: 0 auto;
@@ -22,19 +22,13 @@
             padding: 12px 0;
         
             .logo{
-                width: 485px;
-                height: 30px;
-                
-                img.prtimes-logo{
-                    width: 122px;
-                    height: 22px;
-                    top: 4px;
-                }
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
                 a.prtimes{
+                    padding: 10px;
                     color: #BFC9D7;
-                    width: 335px;
-                    height: 30px;
-                    left: 140px;
                     font-weight: 400;
                     font-size: 12px;
                     line-height: 18px;
@@ -46,6 +40,7 @@
                 margin: 0 auto;
                 .link__background{
                     background-color: #345584;
+                    border-radius: 4px 4px 4px 4px;
                     text-align: center;
                     width: 316px;
                     height: 30px;
@@ -75,8 +70,13 @@
                 input.box{
                     width: 258px;
                     height: 30px;
+                    line-height: 30px;
+                    font-size: 13px;
+                    padding-left: 15px;
                     border-radius: 4px 0px 0px 4px;
                     border: #BBBBBB;
+                    
+
                 }
                 button.search{
                     width: 30px;
@@ -103,15 +103,21 @@
                 width: 128px;
                 height: 13px;
                 top: 9px;
-                font-weight: 700;
                 font-size: 13px;
                 line-height: 19.5px;
                 text-decoration: none;
             }
+            a.link-top{
+                font-weight: 700;
+            }
             a.link:hover{
+                text-decoration: underline;
+            }
+            a.link-top:hover{
                 text-decoration: underline;
             }
         }    
     }
 }
+
 
