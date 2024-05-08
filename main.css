@@ -167,3 +167,35 @@
         }
     }
 }
+
+.ranking{
+    min-width: 1440px;
+    height: 263px;
+    top: 111px;
+    background-color: #F2F2F2;
+    text-align: center;
+
+    .image{
+        .rank{
+            width: 24px;
+            height: 24px;
+            background-color: #294C7A;
+            color: #FFFFFF;
+        }
+        img{
+            width: 181px;
+            height: 100px;
+            top: -0.02px;
+        }
+    }
+
+    .article{
+        width: 181px;
+        height: 263px;
+        top: 133.12px;
+        left: 175px;
+        .content{
+            color: #A1A1A1;
+        }
+    }
+}
