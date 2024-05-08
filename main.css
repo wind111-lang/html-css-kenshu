@@ -137,29 +137,32 @@
     border-bottom: 1px solid  #E4E4E4;
 
     .categories{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
+        
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
 
-        li{
-            display: inline-block;
-        }
-
-        a{  
-            color: #294C7A;
-            font-weight: 400;
-            font-size: 13px;
-            line-height: 20.8px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        a.link-top{
-            font-weight: bold;
-        }
-            
-        a.link:hover{
-            font-weight: bold;
+            li{
+                display: inline-block;
+            }
+    
+            a{  
+                color: #294C7A;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 20.8px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            a.link-top{
+                font-weight: bold;
+            }
+                
+            a.link:hover{
+                font-weight: bold;
+            }
         }
     }
 }
