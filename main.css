@@ -1,8 +1,9 @@
 .header{
     background-color: #24436F;
-    width: 1440px;
+    min-width: 1440px;
     height: 75px;
     padding: 10px;
+    gap: 10px;
 
     .header-container{
         width: 1126px;
@@ -10,17 +11,20 @@
         left: 175px;
         position: relative;
     
-        .header-small-container{
+        .header__small-container{
             width: 1126px;
             height: 30px;
             top: 13px;
             display: flex;
+            margin: 0 auto;
         
             .logo{
+                margin: 0 auto;
                 img.prtimes-logo{
                     width: 122px;
                     height: 22px;
                     top: 4px;
+                    cursor: pointer;
                 }
                 a.prtimes{
                     color: #BFC9D7;
@@ -35,6 +39,7 @@
     
             .release{
                 left: 511px;
+                margin: 0 auto;
                 .background{
                     background-color: #345584;
                     text-align: center;
@@ -50,6 +55,7 @@
                         font-weight: 400;
                         font-size: 13px;
                         line-height: 18px;
+                        text-decoration: none;
                     }
                     a.link:hover{
                         text-decoration: underline;
@@ -78,6 +84,9 @@
                     border: none;
                     text-align: center;
                 }
+                button.search:hover{
+                    cursor: pointer;
+                }
             }
         }
     
@@ -85,7 +94,7 @@
             width: 1125px;
             height: 13px;
             top: 52px;
-            text-align: left;
+            margin: 0 auto;
     
             a{
                 color: #FFFFFF;
@@ -96,6 +105,7 @@
                 font-weight: 700;
                 font-size: 13px;
                 line-height: 19.5px;
+                text-decoration: none;
             }
             a.link:hover{
                 text-decoration: underline;
