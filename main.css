@@ -17,7 +17,6 @@
         margin: 0 auto;
         padding: 12px 0;
         width: 1126px;
-        width: 1126px;
     
         .header__small-container{
             height: 30px;
@@ -41,11 +40,6 @@
             .release{
                 margin: 0 auto;
                 text-align: center;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                gap: 6px;
-
                 display: inline-flex;
                 align-items: center;
                 justify-content: center;
@@ -91,7 +85,6 @@
                     border-radius: 4px 0px 0px 4px;
                     outline: none;
                     border: #BBBBBB;
-                    
 
                 }
                 button.search{
