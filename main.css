@@ -210,32 +210,58 @@
                     }
                 }
         
-                .item__text{
+                .item__info-box{
                     width: 181px;
                     height: 119.45px;
                     background-color: #FFFFFF;
 
-                    p{
-                        color: #A2A2A2;
-                        font-weight: 400;
-                        font-size: 12px;
-                        line-height: 18px;
-                        cursor: pointer;
-                    }
-                    .item__description{
-                        text-align: center;
-                        color: #3B3B3B;
-                    }
-                    .item__description:hover{
-                        text-decoration: underline;
-                        color: #3081C9;
-                    }
-                    .item__date, .item__pv-uu{
-                        cursor: text;
-                    }
-                    .item__company-name:hover{
-                        text-decoration: underline;
-                        color: #3B3B3B;
+                    .item__box-content{
+                        width: 161px;
+                        height: 101.35px;
+                        padding: 7px 10px;
+
+
+                        p{
+                            font-weight: 400;
+                            cursor: pointer;
+                        }
+                        .item__description{
+                            width: 161px;
+                            height: 54.86px;
+                            font-size: 13px;
+                            line-height: 18.2px;
+                            color: #3B3B3B;
+                        }
+                        .item__description:hover{
+                            text-decoration: underline;
+                            color: #3081C9;
+                        }
+                        .item__timeinfo{
+                            width: 52px;
+                            height: 13.95px;
+                            font-size: 12px;
+                            line-height: 15px;
+                            margin-top: 2px;
+                            color: #A2A2A2;
+                            white-space: nowrap;
+                            cursor: text;
+                        }
+                        .item__pv-uu{
+                            color: #A2A2A2;
+                            font-size: 12px;
+                            line-height: 18px;
+                            white-space: nowrap;
+                            cursor: text;
+                        }
+                        .item__company-name{
+                            font-size: 12px;
+                            line-height: 18.2px;
+                            color: #A2A2A2;
+                        }
+                        .item__company-name:hover{
+                            text-decoration: underline;
+                            color: #3B3B3B;
+                        }
                     }
                 }
             }
