@@ -182,12 +182,10 @@
             display: inline-block;
             margin: 8px;
 
-            .item__link{
-                text-decoration: none;
-                cursor: default;
+            text-decoration: none;
+            cursor: default;
                 
                 .item__image{
-
                     span{
                         text-align: center;
                         width: 24px;
@@ -203,10 +201,12 @@
                         cursor: pointer;
                     }
                     img{
+                        background-color: #FFFFFF;
                         width: 181px;
                         height: 100px;
                         top: -0.02px;
                         cursor: pointer;
+                        object-fit: contain;
                     }
                 }
         
@@ -220,11 +220,11 @@
                         height: 101.35px;
                         padding: 7px 10px;
 
-
                         p{
                             font-weight: 400;
                             cursor: pointer;
                         }
+                        
                         .item__description{
                             width: 161px;
                             height: 54.86px;
@@ -246,25 +246,30 @@
                             white-space: nowrap;
                             cursor: text;
                         }
-                        .item__pv-uu{
-                            color: #A2A2A2;
-                            font-size: 12px;
-                            line-height: 18px;
-                            white-space: nowrap;
-                            cursor: text;
-                        }
-                        .item__company-name{
-                            font-size: 12px;
-                            line-height: 18.2px;
-                            color: #A2A2A2;
-                        }
-                        .item__company-name:hover{
-                            text-decoration: underline;
-                            color: #3B3B3B;
+                        .item__sub-content{
+                            a{
+                                font-weight: 400;
+                                cursor: pointer;
+                            }
+                            .item__pv-uu{
+                                color: #A2A2A2;
+                                font-size: 12px;
+                                line-height: 18px;
+                                white-space: nowrap;
+                                cursor: text;
+                            }
+                            .item__company-name{
+                                font-size: 12px;
+                                line-height: 18.2px;
+                                color: #A2A2A2;
+                            }
+                            .item__company-name:hover{
+                                text-decoration: underline;
+                                color: #3B3B3B;
+                            }
                         }
                     }
                 }
             }
         }
     }
-}
