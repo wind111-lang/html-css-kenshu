@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body{
-    overflow: hidden;
-}
+
 .header{
     background-color: #24436F;
     width: 100%;
@@ -174,16 +172,15 @@
 
     .ranking__links__list{
         width: 181px;
-        height: 244px;
-        margin: 16px auto 0;
+        height: auto;
+        padding-block: 16px;
+        gap: 7px;
         display: flex;
         justify-content: center;
 
 
         .ranking__links__item{
             display: block;
-            margin-right: 7px;
-
             text-decoration: none;
             cursor: default;
                 
@@ -214,14 +211,10 @@
         
                 .item__info-box{
                     width: 181px;
-                    height: 119.45px;
                     background-color: #FFFFFF;
+                    padding: 7px 10px 4px;
 
                     .item__box-content{
-                        width: 161px;
-                        height: 119.45px;
-                        padding: 7px 10px;
-
                         p{
                             font-weight: 400;
                             cursor: pointer;
