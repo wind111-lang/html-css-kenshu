@@ -3,20 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body{
+    overflow: hidden;
+}
 .header{
     background-color: #24436F;
     width: 100%;
     min-width: 1125px;
     height: 75px;
-    padding: 10px;
-    gap: 10px;
     margin: 0 auto;
-    display: block;
 
     .header__container{
         margin: 0 auto;
         padding: 12px 0;
-        width: 1126px;
+        width: 1125px;
     
         .header__small-container{
             height: 30px;
@@ -166,26 +166,28 @@
 }
 
 .ranking__container{
-    width: 100%;
+    min-width: 1125px;
     background-color: #F2F2F2;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     .ranking__links__list{
         width: 181px;
-        margin: 16px auto;
+        height: 244px;
+        margin: 16px auto 0;
         display: flex;
         justify-content: center;
-        align-items: center;
+
 
         .ranking__links__item{
-            display: inline-block;
-            margin: 8px;
+            display: block;
+            margin-right: 7px;
 
             text-decoration: none;
             cursor: default;
                 
-                .item__image{
+            .item__image{
                     span{
                         text-align: center;
                         width: 24px;
@@ -217,7 +219,7 @@
 
                     .item__box-content{
                         width: 161px;
-                        height: 101.35px;
+                        height: 119.45px;
                         padding: 7px 10px;
 
                         p{
@@ -227,7 +229,7 @@
                         
                         .item__description{
                             width: 161px;
-                            height: 54.86px;
+                            height: 60px;
                             font-size: 13px;
                             line-height: 18.2px;
                             color: #3B3B3B;
