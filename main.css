@@ -562,6 +562,24 @@
                 line-height: 36px;
             }
         }
+
+        .pressrelease__wrapper{
+            .pressrelease__button{
+                text-align: center;
+                width: 110px;
+                height: 38px;
+                color: #FFFFFF;
+                background-color: #3081C9;
+                border: none;
+                border-radius: 3px;
+                font-size: 14px;
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24);
+            }
+            .pressrelease__button:hover{
+                cursor: pointer;
+                background-color: #59A7E6;
+            }
+        }
     }
 
     .keyword__contents{
@@ -581,17 +599,17 @@
             }
             .keyword__item{
                 display: inline-block;
-                border-radius: 11px 11px 11px 11px;
 
-                .keyword__link{
+                a.keyword__link{
                     text-decoration: none;
                     color: #3B3B3B;
                     font-weight: 400;
                     font-size: 12px;
                     line-height: 21.6px;
                     background-color: #F1F1F1;
+                    border-radius: 11px 11px 11px 11px;
                 }
-                .keyword__more-item{
+                a.keyword__more-item{
                     text-decoration: none;
                     background-color: #FFFFFF;
                     color: #3B3B3B;
@@ -599,6 +617,7 @@
                     font-size: 12px;
                     line-height: 21.6px;
                     border: #F1F1F1;
+                    border-radius: 11px 11px 11px 11px;
                 }
             }
         }
