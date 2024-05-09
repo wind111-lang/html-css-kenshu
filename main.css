@@ -564,6 +564,11 @@
         }
 
         .pressrelease__wrapper{
+            justify-content: center;
+            align-items: center;
+            display: block;
+            text-align: center;
+
             .pressrelease__button{
                 text-align: center;
                 width: 110px;
@@ -599,6 +604,8 @@
             }
             .keyword__item{
                 display: inline-block;
+                margin: 0 12px 9px 0;
+                text-align: center;
 
                 a.keyword__link{
                     text-decoration: none;
@@ -607,7 +614,7 @@
                     font-size: 12px;
                     line-height: 21.6px;
                     background-color: #F1F1F1;
-                    border-radius: 11px 11px 11px 11px;
+                    border-radius: 14px;
                 }
                 a.keyword__more-item{
                     text-decoration: none;
@@ -617,7 +624,7 @@
                     font-size: 12px;
                     line-height: 21.6px;
                     border: #F1F1F1;
-                    border-radius: 11px 11px 11px 11px;
+                    border-radius: 14px;
                 }
             }
         }
