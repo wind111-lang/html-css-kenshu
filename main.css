@@ -3,20 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .header{
     background-color: #24436F;
     width: 100%;
     min-width: 1125px;
     height: 75px;
-    padding: 10px;
-    gap: 10px;
     margin: 0 auto;
-    display: block;
 
     .header__container{
         margin: 0 auto;
         padding: 12px 0;
-        width: 1126px;
+        width: 1125px;
     
         .header__small-container{
             height: 30px;
@@ -85,7 +83,6 @@
                     border-radius: 4px 0px 0px 4px;
                     outline: none;
                     border: #BBBBBB;
-                    
 
                 }
                 button.search{
@@ -107,6 +104,7 @@
         .main-header{        
             width: 1125px;
             height: 13px;
+
 
             a{
                 color: #FFFFFF;
@@ -134,6 +132,7 @@
     min-width: 1125px;
     width: 100%;
     border-bottom: 1px solid  #E4E4E4;
+    height: 36px;
 
     .categories{
         display: flex;
@@ -164,3 +163,108 @@
     }
 }
 
+.ranking__container{
+    min-width: 1125px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ranking__links__list{
+        width: 181px;
+        height: auto;
+        padding-block: 16px;
+        gap: 7px;
+        display: flex;
+        justify-content: center;
+
+
+        .ranking__links__item{
+            display: block;
+            text-decoration: none;
+            cursor: default;
+                
+            .item__image{
+                    span{
+                        text-align: center;
+                        width: 24px;
+                        height: 24px;
+                        background-color: #24436F;
+                        color: #FFFFFF;
+                        position: absolute;
+                        font-family: 'Roboto';
+                        font-weight: 700;
+                        font-style: italic;
+                        font-size: 17px;
+                        line-height: 25px;
+                        cursor: pointer;
+                    }
+                    img{
+                        background-color: #FFFFFF;
+                        width: 181px;
+                        height: 100px;
+                        top: -0.02px;
+                        cursor: pointer;
+                        object-fit: contain;
+                    }
+                }
+        
+                .item__info-box{
+                    width: 181px;
+                    background-color: #FFFFFF;
+                    padding: 7px 10px 4px;
+
+                    .item__box-content{
+                        p{
+                            font-weight: 400;
+                            cursor: pointer;
+                        }
+                        
+                        .item__description{
+                            width: 161px;
+                            height: 60px;
+                            font-size: 13px;
+                            line-height: 18.2px;
+                            color: #3B3B3B;
+                        }
+                        .item__description:hover{
+                            text-decoration: underline;
+                            color: #3081C9;
+                        }
+                        .item__timeinfo{
+                            width: 52px;
+                            height: 13.95px;
+                            font-size: 12px;
+                            line-height: 15px;
+                            margin-top: 2px;
+                            color: #A2A2A2;
+                            white-space: nowrap;
+                            cursor: text;
+                        }
+                        .item__sub-content{
+                            a{
+                                font-weight: 400;
+                                cursor: pointer;
+                            }
+                            .item__pv-uu{
+                                color: #A2A2A2;
+                                font-size: 12px;
+                                line-height: 18px;
+                                white-space: nowrap;
+                                cursor: text;
+                            }
+                            .item__company-name{
+                                font-size: 12px;
+                                line-height: 18.2px;
+                                color: #A2A2A2;
+                            }
+                            .item__company-name:hover{
+                                text-decoration: underline;
+                                color: #3B3B3B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
