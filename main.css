@@ -269,23 +269,22 @@
         }
 }
 
-.main__container{
+.main-container{
     width: 1125px;
     display: flex;
     margin: 0 auto;
     padding: 30px 0 50px;
     
-    .pressrelease__contents{
+    .press-releases{
         width: 779px;
         height: 733.35px;
         margin: 0 auto;
 
-        .pressrelease__title{
-            p.title{
-                font-weight: 700;
-                font-size: 24px;
-                line-height: 36px;
-            }
+        .press-release__title{
+            font-size: 24px;
+            color: #3B3B3B;
+            margin-bottom: 10px;
+            font-weight: bold;
         }
 
         .pressrelease__wrapper{
@@ -293,7 +292,7 @@
             height: 658px;
             
 
-            .article__box{
+            .press-release__item{
                 display: inline-block;
                 width: 380px;
                 min-height: 118px;
