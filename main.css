@@ -13,6 +13,8 @@
     --corporate-deep-dark: #333;
     --corporate-white: #FFFFFF;
     --corporate-gray: #A2A2A2;
+    --corporate-darkest: #000000;
+    --corporate-gray-light: #797979;
 }
 
 .header{
@@ -460,65 +462,60 @@
 
 .footer-container{
     width: 100%;
-    height: auto;
-    min-width: 1125px;
     background-color: #FAFAFA;
     padding: 73px 0 10px;
     display: grid;
-
     .footer-contents{
-        display: flex;
         margin: 0 auto;
         width: 1125px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .footer-contents__wrapper{
-        width: 25%;
-        padding: 10px;
-
-        border-bottom: 1px solid #E4E4E4;
+        width: 281.25px;
+        margin: 0 auto;
+        display: flex;
 
         .footer-contents__item{
             display: block;
-            flex-direction: row;
+            flex-direction: column;
             font-weight: 400;
             font-size: 13px;
             line-height: 13px;
-            color: #000000;
+            color: var(--corporate-darkest);
             height: 13px;
             margin-bottom: 18px;
 
         }
         .footer__item{
             display: block;
-            flex-direction: row;
             margin-bottom: 17px;
         }
         .footer__link{
             font-weight: 400;
             font-size: 12px;
             line-height: 12px;
-            color: #797979;
+            color: var(--corporate-gray-light);
             text-decoration: none;
 
         }
         .footer__link:hover{
-            color: #000000;
+            color: var(--corporate-darkest);
             cursor: pointer;
             text-decoration: underline;
         }
     }
-    .footer__term__list{
-            width: 1125px;
-            text-align: right;
-            padding: 13px 30px 13px;
-
+    .footer-company{
+        padding: 13px 0 13px;
+        border-top: 1px solid #E4E4E4;
+        
+            .footer__term__list{
             li{
                 display: inline-block;
-                margin: 0 10px;
+                padding: 0 5px;
             }
             a{
                 text-decoration: none;
-                color: #797979;
+                color: var(--corporate-gray-light);
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 12px;
@@ -527,13 +524,12 @@
                 cursor: pointer;
                 text-decoration: underline;
             }
-    }
+        }
     .footer__company__copyright{
-            width: 1125px;
-            text-align: center;
-            color: #797979;
+            color: var(--corporate-gray-light);
             font-weight: 400;
             font-size: 12px;
             line-height: 12px;
+        }
     }
 }
