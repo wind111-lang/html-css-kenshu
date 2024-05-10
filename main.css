@@ -441,13 +441,37 @@
         border-bottom: 1px solid #E4E4E4;
     }
     .footer__contents__wrapper{
-        display: inline-block;
+        width: 25%;
+        display: table-cell;
+
         .footer__item-title{
-            display: flex;
+            display: block;
+            flex-direction: column;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 13px;
+            color: #000000;
+            height: 13px;
+            margin-bottom: 18px;
+
         }
         .footer__item{
-            display: flex;
-        
+            display: block;
+            flex-direction: column;
+            margin-bottom: 18px;
+        }
+        .footer__link{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #797979;
+            text-decoration: none;
+            padding-bottom: 10px;
+        }
+        .footer__link:hover{
+            color: #000000;
+            cursor: pointer;
+            text-decoration: underline;
         }
     }
     .footer__term__list{
