@@ -465,17 +465,15 @@
     background-color: #FAFAFA;
     padding: 73px 0 10px;
     display: grid;
+    
     .footer-contents{
         margin: 0 auto;
-        width: 1125px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .footer-contents__wrapper{
         width: 281.25px;
 
         .footer-contents__item{
             display: block;
-            flex-direction: row;
             font-weight: 400;
             font-size: 13px;
             line-height: 13px;
@@ -486,12 +484,10 @@
         }
         .footer__item{
             display: block;
-            flex-direction: row;
             margin-bottom: 17px;
         }
         .footer__link{
             display: block;
-            flex-direction: row;
             font-weight: 400;
             font-size: 12px;
             line-height: 12px;
@@ -512,7 +508,7 @@
             .footer__term__list{
             li{
                 display: inline-block;
-                padding: 0 5px;
+                padding: 0 10px;
             }
             a{
                 text-decoration: none;
