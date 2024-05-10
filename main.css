@@ -511,8 +511,10 @@
             text-decoration: underline;
         }
     }
-    .footer-company{ 
+    .footer-company{
+        
             .footer__term__list{
+                padding-bottom: 10px;
                 li{
                     padding-right: 15px;
                     display: inline-flex;
@@ -523,6 +525,7 @@
                     font-weight: 400;
                     font-size: 12px;
                     line-height: 12px;
+
                 }
                 a:hover{
                     cursor: pointer;
