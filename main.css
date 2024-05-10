@@ -461,11 +461,14 @@
 }
 
 .footer-container{
+    width: 100%;
+    min-width: 1125px;
+    background-color: #FAFAFA;
     .footer-small-container{
-        width: 100%;
-        min-width: 1125px;
-        background-color: #FAFAFA;
+        width: 1125px;
+        margin-inline: auto;
         padding: 73px 0 10px;
+        gap: 10px;
         display: grid;
         .footer-contents{
             display: flex;
@@ -508,11 +511,7 @@
             text-decoration: underline;
         }
     }
-    .footer-company{
-        width: 1125px;
-        margin: 10px;
-        margin-inline: auto; 
-        padding: 13px 0 13px;    
+    .footer-company{ 
             .footer__term__list{
                 li{
                     padding-right: 15px;
@@ -533,8 +532,8 @@
             .footer__company__copyright{
                 color: var(--corporate-gray-light);
                 font-weight: 400;
-                font-size: 12px;
-                line-height: 12px;
+                font-size: 11px;
+                line-height: 11px;
             }
         }
     }
