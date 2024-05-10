@@ -472,12 +472,10 @@
     }
     .footer-contents__wrapper{
         width: 281.25px;
-        margin: 0 auto;
-        display: flex;
 
         .footer-contents__item{
             display: block;
-            flex-direction: column;
+            flex-direction: row;
             font-weight: 400;
             font-size: 13px;
             line-height: 13px;
@@ -488,9 +486,12 @@
         }
         .footer__item{
             display: block;
+            flex-direction: row;
             margin-bottom: 17px;
         }
         .footer__link{
+            display: block;
+            flex-direction: row;
             font-weight: 400;
             font-size: 12px;
             line-height: 12px;
