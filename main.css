@@ -461,32 +461,32 @@
 }
 
 .footer-container{
-    width: 100%;
-    background-color: #FAFAFA;
-    padding: 73px 0 10px;
-    display: grid;
-    
-    .footer-contents{
-        width: 1125px;
-        display: block;
-        margin: 0 auto;
-    }
-    .footer-contents__wrapper{
-        width: 281.25px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-
-        .footer-contents__item{
+    .footer-small-container{
+        width: 100%;
+        min-width: 1125px;
+        background-color: #FAFAFA;
+        padding: 73px 0 10px;
+        display: grid;
+        .footer-contents{
+            display: flex;
+            margin: 0 auto;
+            border-bottom: 1px solid #E4E4E4;
+        }
+        .footer-contents__wrapper{
+            width: 281.25px;
+            height: auto;
             display: flex;
             flex-direction: column;
-            font-weight: 400;
-            font-size: 13px;
-            line-height: 13px;
-            color: var(--corporate-darkest);
-            height: 13px;
-            margin-bottom: 18px;
 
+            .footer-contents__item{
+                display: flex;
+                flex-direction: column;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 13px;
+                color: var(--corporate-darkest);
+                height: 13px;
+                margin-bottom: 18px;
         }
         .footer__item{
             display: flex;
@@ -509,31 +509,33 @@
         }
     }
     .footer-company{
-        padding: 13px 0 13px;
-        border-top: 1px solid #E4E4E4;
-        
+        width: 1125px;
+        margin: 10px;
+        margin-inline: auto; 
+        padding: 13px 0 13px;    
             .footer__term__list{
-            li{
-                display: inline-block;
-                padding: 0 10px;
+                li{
+                    padding-right: 15px;
+                    display: inline-flex;
+                }
+                a{
+                    text-decoration: none;
+                    color: var(--corporate-gray-light);
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 12px;
+                }
+                a:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
             }
-            a{
-                text-decoration: none;
+            .footer__company__copyright{
                 color: var(--corporate-gray-light);
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 12px;
             }
-            a:hover{
-                cursor: pointer;
-                text-decoration: underline;
-            }
-        }
-    .footer__company__copyright{
-            color: var(--corporate-gray-light);
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 12px;
         }
     }
 }
