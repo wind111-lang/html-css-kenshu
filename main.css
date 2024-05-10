@@ -387,10 +387,11 @@
     .keyword__wrapper{
         border-bottom: 1px solid #E4E4E4;
         .keyword__title{
-                font-weight: 700;
-                font-size: 18px;
+                font-weight: bold;
+                font-size: 16px;
                 line-height: 27px;
-                color: #3B3B3B;
+                padding: 5px 0 20px;
+                color: #333;
             }
             .keyword__item{
                 display: inline-block;
