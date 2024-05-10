@@ -443,6 +443,7 @@
     .footer__contents__wrapper{
         width: 25%;
         display: table-cell;
+        padding: 10px;
 
         .footer__item-title{
             display: block;
@@ -475,9 +476,10 @@
         }
     }
     .footer__term__list{
-        margin: 0 auto;
+        margin: 10px auto;
+        padding: 13px 0 13px;
         display: flex;
-        align-items: center;
+
 
         li{
             display: inline-block;
@@ -496,6 +498,7 @@
         }
     }
     .footer__company__copyright{
+        margin: 0 auto;
         color: #797979;
         font-weight: 400;
         font-size: 11px;
