@@ -386,11 +386,10 @@
         width: 312px;
         height: 733.35px;
         padding: 1px 0 10px 0;
-        margin-bottom: 30px;
-        border-bottom: 1px solid #E4E4E4;
         display: block;
 
     .keyword__wrapper{
+        border-bottom: 1px solid #E4E4E4;
         .keyword__title{
                 font-weight: 700;
                 font-size: 18px;
