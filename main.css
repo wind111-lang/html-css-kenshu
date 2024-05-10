@@ -387,7 +387,7 @@
 
                 a.moreview{
                     display: block;
-                    width: 100px;
+                    width: 100%;
                     font-size: 14px;
                     color: var(--corporate-white);
                     text-decoration: none;
