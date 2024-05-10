@@ -467,13 +467,19 @@
     display: grid;
     
     .footer-contents{
+        width: 1125px;
+        display: block;
         margin: 0 auto;
     }
     .footer-contents__wrapper{
         width: 281.25px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
 
         .footer-contents__item{
-            display: block;
+            display: flex;
+            flex-direction: column;
             font-weight: 400;
             font-size: 13px;
             line-height: 13px;
@@ -483,7 +489,8 @@
 
         }
         .footer__item{
-            display: block;
+            display: flex;
+            flex-direction: column;
             margin-bottom: 17px;
         }
         .footer__link{
