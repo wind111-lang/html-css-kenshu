@@ -405,10 +405,6 @@
         width: 312px;
         height: auto;
         padding: 1px 0 10px 0;
-<<<<<<< HEAD
-=======
-        margin-bottom: 30px;
->>>>>>> fa4f4d3 (Add: footerリンクを追加)
         display: block;
 
     .keyword__wrapper{
@@ -575,5 +571,88 @@
     }
     .footer__company__copyright{
         color: #3B3B3B;
+    }
+}
+
+
+.footer__container{
+    width: 100%;
+    min-width: 1125px;
+    height: auto;
+    background-color: #FAFAFA;
+
+
+    .footer__contents{
+        display: table;
+        margin: 0 auto;
+        padding-bottom: 22px;
+        border-bottom: 1px solid #E4E4E4;
+    }
+    .footer__contents__wrapper{
+        width: 25%;
+        display: table-cell;
+        padding: 10px;
+
+        .footer__item-title{
+            display: block;
+            flex-direction: column;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 13px;
+            color: #000000;
+            height: 13px;
+            margin-top: 10px;
+            margin-bottom: 17px;
+
+        }
+        .footer__item{
+            display: block;
+            flex-direction: column;
+            margin-bottom: 17px;
+        }
+        .footer__link{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #797979;
+            text-decoration: none;
+            padding-bottom: 10px;
+        }
+        .footer__link:hover{
+            color: #000000;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    .footer__company-info{
+        display: block;
+        text-align: center;
+
+        .footer__term__list{
+            display: flex;
+            padding: 12px 0 12px;
+    
+            li{
+                display: inline-block;
+                margin: 0 10px;
+            }
+            a{
+                text-decoration: none;
+                color: #797979;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 12px;
+            }
+            a:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .footer__company__copyright{
+            color: #797979;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+        }
     }
 }
