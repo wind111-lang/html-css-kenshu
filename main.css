@@ -458,25 +458,27 @@
     }
 }
 
-.footer__container{
+.footer-container{
     width: 100%;
     height: auto;
     min-width: 1125px;
-
     background-color: #FAFAFA;
+    margin: 0 auto;
+    display: grid;
 
-    .footer__contents{
-        display: table;
+    .footer-contents{
+        width: 1125px;
+        display: flex;
         margin: 0 auto;
-        padding-bottom: 20px;
+        padding: 10px 0 10px;
         border-bottom: 1px solid #E4E4E4;
     }
-    .footer__contents__wrapper{
+    .footer-contents__wrapper{
         width: 25%;
-        display: table-cell;
+        display: flex;
         padding: 10px;
 
-        .footer__item-title{
+        .footer-contents__item{
             display: block;
             flex-direction: column;
             font-weight: 400;
@@ -510,8 +512,7 @@
     .footer__term__list{
             display: flex;
             padding: 13px 0 13px;
-            min-width: 1125px;
-            justify-content: center;
+            max-width: 779px;
     
             li{
                 display: inline-block;
@@ -531,8 +532,6 @@
     }
     .footer__company__copyright{
             display: flex;
-            justify-content: center;
-            text-align: center;
             color: #797979;
             padding-bottom: 10px;
             font-weight: 400;
